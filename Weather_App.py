@@ -55,17 +55,18 @@ temp1_label.place(x=200,y=340,height=50,width=210)
 tempmax_label = Label(win,text="Maximum Temprature -->",font=("Comic Sans MS",10,"bold"),bg="lightblue")
 tempmax_label.place(x=25,y=390,height=30,width=210)
 tempmax1_label = Label(win,text="",font=("Comic Sans MS",10,"bold"),bg="lightblue")
-tempmax1_label.place(x=200,y=380,height=50,width=210)
+tempmax1_label.place(x=210,y=380,height=50,width=210)
 
 #5.)-->For Minimum Temperature
 tempmin_label = Label(win,text="Minimum Temprature -->",font=("Comic Sans MS",10,"bold"),bg="lightblue")
 tempmin_label.place(x=25,y=430,height=30,width=210)
 tempmin1_label = Label(win,text="",font=("Comic Sans MS",10,"bold"),bg="lightblue")
-tempmin1_label.place(x=200,y=420,height=50,width=210)
+tempmin1_label.place(x=210,y=420,height=50,width=210)
 
 
 #-->Making the done button now to tell the app to fetch the details of the selected city..
 done_button = Button(win,text="Done",font=("Time New Roman",20,"bold"),command=data_get)
 done_button.place(y=190,height=50,width=100,x=200)
+
 
 win.mainloop()
